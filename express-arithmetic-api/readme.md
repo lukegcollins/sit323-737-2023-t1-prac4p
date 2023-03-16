@@ -1,7 +1,6 @@
 # sit323_737-2023-t1-prac4p
 
 ## Submissions
-Submitted as part of task 4.1P for SIT737. 
 - [Arithmetic API](express-arithmetic-api/): The Arithmetic API takes on the following file structure
   - [Src](express-arithmetic-api/) : The source code directory.
     - [App](express-arithmetic-api/src/app): The App directory.
@@ -43,7 +42,7 @@ http://localhost:3000
 ```
 
 
-### 4 - .ENV FIle MAY NEED TO BE CREATED IN PROJECT ROOT
+### .ENV FIle MAY NEED TO BE CREATED IN PROJECT ROOT
 ```
 NODE_ENV=development
 APP_PORT=3000
