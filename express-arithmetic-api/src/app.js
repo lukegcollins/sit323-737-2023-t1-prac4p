@@ -13,8 +13,6 @@ app.use(express.urlencoded({ extended: true }));
 // Routes
 app.use(require('./app/modules/routed'));
 
-
-
 // Start the server
 var server = app.listen(process.env.APP_PORT || 3000, function () {
     logger.info(`[${fn}]: Server Started on port ${server.address().port} in ${process.env.NODE_ENV} mode.`);
